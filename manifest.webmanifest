@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "AUTO INSURANCE APP.",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/fox-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "AUTO INSURANCE APP",
+  "short_name": "AUTO INSURANCE",
+  "start_url": "/index.html"
+}
