@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Safari Developer Reference</title>
+        <button onclick="openInTab('http://www.google.com');">Click me</button>
+        <script type="text/javascript">
+            function openInTab(source){
+                var newTab=safari.self.browserWindow.openTab();
+                newTab.url=source;
+            }
+        </script>
+    </head>
+    <body style="color:#C02020;background:#C0C0C0;">
+        <a href="javascript:openInTab('https://huytrantda.github.io/');"> Google </a>
+    </body>
